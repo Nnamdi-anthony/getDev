@@ -1,0 +1,137 @@
+
+.body{
+	background: url("background.jpg");
+    background-repeat: no-repeat;
+}
+.main-body{
+	text-align:center;
+	margin-top:-1%;
+	height: 120%;
+	width:100%;
+	background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+}
+.container p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    font-family: initial;
+}
+p{
+color: #fff;
+margin: 10px 0;
+letter-spacing: 2px;
+font-size: 17px;
+font-family: 'Oxygen', sans-serif;
+}
+.countdownContainer{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+	text-align: center;
+	padding:10px;
+	box-shadow: 0 0 5px 3px #ccc;
+}
+.info{
+	font-size:80px;
+}
+#demo{
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.Subscribe h2{
+	color:#fff;
+	font-size: 25px;
+	margin-bottom: 14px;
+	letter-spacing: 2px;
+	font-family: 'Roboto', sans-serif;
+}
+.Subscribe input[type="email"] {
+    padding: 16px 2%;
+    width: 35%;
+    margin-right: 0px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #fff;
+    max-width: 96%;
+    outline: none;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(14, 14, 13, 0.62);
+}
+.Subscribe input[type="submit"] {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 500;
+    border: none;
+    background: #F44336;
+    padding: 15px 30px;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+ul.contact-icon{
+    margin-top: 40px;
+}
+li{
+    list-style-type: none;
+}
+.contact-icon li{
+    display:inline-block;
+    margin:0.2em;
+}
+.contact-icon li a{
+    width:35px;
+    height:35px;
+    border:2px solid #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    display:block;
+    text-align: center;
+}
+.contact-icon li a span{
+    line-height: 2.2em;
+    color:#fff;
+}
+.contact-icon li a i{
+    line-height: 2.2em;
+    color:#fff;
+}
+a{
+    text-decoration: none;
+    color: #D0B531;
+}
+.footer{
+color: #fff;
+margin: 10px 0;
+font-size: 15px !important;
+font-family: 'Oxygen', sans-serif;
+letter-spacing: :1px !important;
+}
+.facebook:hover{
+    background-color:#3b5998;
+}
+.twitter:hover{
+    background-color:#00acee;
+}
+.google:hover{
+    background-color:#CC3333;
+}
+.pinterest:hover{
+    background-color:#c8232c;
+}
+.rss:hover{
+    background-color:#ee802f;
+}
